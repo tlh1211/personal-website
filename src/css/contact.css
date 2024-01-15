@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	background-color: #B3A584;
+	width: 100;
+	height: 40px;
+	opacity: 0.7;
+}
+
+header h1 a {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: #fff;
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	margin:auto;
+}
+#logo{
+	height:40px;
+	float:left;
+}
+.utility {
+	float: right;
+}
+
+.utility ul {
+	padding: auto;
+}
+
+.utility ul li {
+	display: inline;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 12px;
+	color: #fff;
+	padding: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.utility ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.utility ul li a:hover {
+	color: #403325;
+	text-decoration: underline;	
+}
+#background {
+	width: 100%;
+	height: 300px;
+	background-image: url("../pictures/background.jpg");
+	image-resolution: from-image;
+	padding: 200px 0 300px 100px;
+	box-sizing: border-box;
+	background-size: cover;
+	opacity: 1;
+}
+#background h1{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	opacity: 1;
+	float: left;
+}
+#background h2{
+	font-family: 'Playfair Display SC', serif;
+	color: #fff;
+	text-transform: none;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	float: left;
+}
+main p{
+	font-family: 'Playfair Display', serif;
+	color: #000;
+	font-weight: regular 400;
+	font-size: 13px;
+	line-height: 16px;
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	padding: 0 10px 0 0;
+}
+main p img{
+	float: right;
+	margin-right: 50px;
+	padding: 0 20px 20px 10px;
+	clear: both;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #747068;
+	padding: 20px 0;
+}
+footer p{
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	font-size: 12px;
+	font-weight: 400;
+	float: right;
+	margin-right: 50px;
+}
+.footer-utility {
+	float: left;
+}
+
+.footer-utility ul {
+	padding-top: auto;	
+}
+
+.footer-utility ul li{
+	display: table;
+	font-family: 'Playfair Display', serif;
+	text-transform: none;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-left: 50px;
+}
+
+.footer-utility ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-utility ul li a:hover {
+	color: #403325;
+	text-decoration: underline;	
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background-color: #B3A584;
+	float: right;
+	opacity: 1;
+}
+nav ul {
+	padding-top: auto;
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul li {
+	display: inline;
+	font-family: 'Playfair Display SC', serif;
+	text-transform:uppercase;
+	font-size: 12px;
+	color: #fff;
+	padding: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #403325;
+	text-decoration: underline;	
+}
+h1 {
+	font-family:'Playfair Display SC', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+}
+main h2{
+	font-family:'Playfair Display SC', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 15px;
+}
+main h3{
+	font-family: 'Playfair Display', serif;
+	text-transform: none;
+	font-weight: 700;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: left;
+}
+form caption{
+	caption-side: top;
+	text-align: left;
+	margin-top:20px;
+}
+form input {
+	margin: 10px;
+	margin-left:40px;
+	display: block;
+	text-align: left;
+}
+form label {
+	font-family:'Playfair Display', serif;
+	font-size: 12px;
+	font-weight: normal 400;
+	display: inline-block;
+	padding: 0 10px;
+	marin-left: 40px;
+}
+form textarea {
+	font-family:'Playfair Display', serif;
+	font-size: 0.75em;
+	font-weight: normal;
+	display: inline-block;
+	padding: 10px;
+	width: auto;
+	marin-left: 40px;
+}
+
+form fieldset {
+	padding: 20px;
+	margin: 20px 0;
+	margin-left: 150px;
+}
+form legend {
+	padding: 0 10px;
+	font-family:'Playfair Display SC', serif;
+	font-size: 25px;
+	font-weight: 400;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.google iframe {
+	float: right;
+	postion: relative;
+	top: 90px;
+	margin-right: 100px;
+}
+.find h2 {
+	padding: 0 10px;
+	font-family:'Playfair Display SC', serif;
+	font-size: 40px;
+	font-weight: 400;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.find a{
+	display: inline-flex;
+	justify-content: center; /* to horizontally center the icons */
+	align-items: center;
+	margin-left: 300px;
+}
